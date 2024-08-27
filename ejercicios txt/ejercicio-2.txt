@@ -1,0 +1,6 @@
+Crea un script donde se lean desde teclado los nombres y alturas de cuatro personas
+y se guarden en una lista. Después escriba una función que reciba esta lista como
+argumento y localice a la persona con la altura máxima, luego devuelva el índice
+correspondiente en la lista. Finalmente, llame a esta función en el script donde lee
+los datos e imprima el nombre de la persona con la altura máxima junto con su valor
+de altura.

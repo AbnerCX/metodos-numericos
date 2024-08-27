@@ -1,0 +1,5 @@
+Implementa un script donde calcules el número más pequeño en la computadora
+mediante un while loop. Es decir, toma un valor inicial eps=0.1 y dividelo por
+dos hasta que sea tan pequeño que no haya diferencia entre eps y 1.0 + eps en
+la computadora. Este número se le llama epsilon de la máquina, imprime el valor
+obtenido.
