@@ -1,0 +1,16 @@
+Escriba una función para encontrar las raíces de la ecuación cuadrática, con todos
+sus casos. Planteamiento del problema: las raíces de una ecuación cuadrática
+
+ax2 + bx + c = 0,
+
+se determinan mediante la formula cuadrática
+x1, x2 = −b ± √b^2 − 4ac / 2a.
+
+Desarrolle el algoritmo que haga lo siguiente: 
+
+• Paso 1: Pida al usuario los coeficientes a, b, c.
+• Paso 2: Realice las operaciones de la fórmula cuadrática previendo todas las eventualidades,
+(por ejemplo,evitar la división por cero y permitir raíces complejas).
+• Paso 3: Dé la solución, es decir,los valores de x.
+• Paso 4: Dé al usuario la opción de volver al paso 1 y repetir el proceso ó de
+terminar el proceso.
