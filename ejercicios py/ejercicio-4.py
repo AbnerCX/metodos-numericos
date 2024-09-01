@@ -1,12 +1,13 @@
 import numpy as np
+import sys
 
-def raiz_de_ecuacion_cuadradtica():
+def raiz_de_ecuacion_cuadratica():
     while True:
         try:
             a = float(input("Introduce el valor de a: "))
-            if a == 0:
+            if not a:
                 print("No se puede dividir entre 0.")
-                exit()
+                sys.exit(0)
             
             b = float(input("Introduce el valor de b: "))
             c = float(input("Introduce el valor de c: "))
@@ -14,7 +15,7 @@ def raiz_de_ecuacion_cuadradtica():
             agrupacion = b**2 - 4 * a * c
             if agrupacion < 0:
                 print("La ecuacion no tiene raices reales.")
-                exit()
+                sys.exit(0)
 
             x1 = (-b + np.sqrt(agrupacion)) / (2 * a)
             x2 = (-b - np.sqrt(agrupacion)) / (2 * a)
@@ -32,4 +33,4 @@ def raiz_de_ecuacion_cuadradtica():
         else:
             break
 
-raiz_de_ecuacion_cuadradtica()
+raiz_de_ecuacion_cuadratica()
